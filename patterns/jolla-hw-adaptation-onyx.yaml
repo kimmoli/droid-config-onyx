@@ -5,7 +5,6 @@ Description: Pattern with packages for onyx HW Adaptation
 Name: jolla-hw-adaptation-onyx
 Requires:
 - pattern:jolla-hw-adaptation-hybris
-#- pattern:jolla-hw-adaptation-hybris-droid-vibrator
 - pattern:jolla-ui-configuration-onyx
 
 - droid-hal-onyx
@@ -35,12 +34,6 @@ Requires:
 - qt5-qtwayland-wayland_egl
 - qt5-qpa-hwcomposer-plugin
 - qtscenegraph-adaptation
-
-# GStreamer v0.10 multimedia support is being deprecated
-#- gstreamer0.10-droidcamsrc
-#- gstreamer0.10-omx
-#- gstreamer0.10-droideglsink
-#- nemo-qtmultimedia-plugins-gstvideotexturebackend
 
 # Add GStreamer v1.0 as standard
 - gstreamer1.0
