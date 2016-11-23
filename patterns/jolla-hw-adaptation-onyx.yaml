@@ -65,13 +65,6 @@ Requires:
 # working but careful with roaming!
 - usb-moded-connection-sharing-android-config
 
-# from update13, this is needed explicitly
-- bluez-configs-sailfish
-
-# OBEX for bluetooth PBAP
-- obexd-calldata-provider
-- obexd-configs-sailfish
-
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill
 
