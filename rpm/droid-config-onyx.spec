@@ -18,5 +18,6 @@ Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 Obsoletes: usb-moded-mass-storage-android-config
 Obsoletes: usb-moded-diag-mode-android
+Obsoletes: usb-moded-pc-suite-mode-android
 
 %include droid-configs-device/droid-configs.inc
