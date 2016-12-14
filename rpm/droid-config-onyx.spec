@@ -7,6 +7,10 @@
 %define device_pretty X
 
 %define dcd_path ./
+
+# Community HW adaptations need this
+%define community_adaptation 1
+
 # Adjust this for your device
 %define pixel_ratio 2.0
 # We assume most devices will
