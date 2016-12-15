@@ -1,7 +1,7 @@
 [Unit]
 Description=Enable Bluetooth HCI over SMD
 DefaultDependencies=false
-After=local-fs.target
+After=jolla-rfkill-hciwait.service
 
 [Service]
 Type=oneshot
