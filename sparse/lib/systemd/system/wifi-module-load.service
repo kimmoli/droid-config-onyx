@@ -1,6 +1,7 @@
 [Unit]
 Description=Load wifi module
 Conflicts=shutdown.target actdead.target
+Before=droid-late-start.service
 
 [Service]
 Type=simple
