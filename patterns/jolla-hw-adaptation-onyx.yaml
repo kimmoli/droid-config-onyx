@@ -91,6 +91,9 @@ Requires:
 - camera-settings-plugin
 - buttonjackd
 
+# Used to speed up camera starting after reboot
+- droid-camres
+
 # Other usefull stuff that i install anyways
 - nano
 - mce-tools

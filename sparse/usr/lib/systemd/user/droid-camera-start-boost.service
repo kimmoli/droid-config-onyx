@@ -1,0 +1,12 @@
+[Unit]
+Description=Camera first start booster
+After=user-session.target
+
+[Service]
+Type=oneshot
+StandardOutput=null
+RemainAfterExit=yes
+ExecStart=/usr/bin/droid-camres
+
+[Install]
+WantedBy=post-user-session.target
